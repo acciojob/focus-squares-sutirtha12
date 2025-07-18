@@ -18,3 +18,19 @@ square3.addEventListener("mouseover",()=>{
     square2.style.backgroundColor="#6F4E37"
 
 })
+
+square1.addEventListener("mouseout",()=>{
+    square2.style.backgroundColor="#E6E6FA"
+    square3.style.backgroundColor="#E6E6FA"
+
+})
+square2.addEventListener("mouseout",()=>{
+    square1.style.backgroundColor="#E6E6FA"
+    square3.style.backgroundColor="#E6E6FA"
+
+})
+square3.addEventListener("mouseout",()=>{
+    square1.style.backgroundColor="#E6E6FA"
+    square2.style.backgroundColor="#E6E6FA"
+
+})
