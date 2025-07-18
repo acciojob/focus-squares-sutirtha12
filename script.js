@@ -1,1 +1,20 @@
-//your JS code here. If required.
+const square1=document.getElementById("square1")
+const square2=document.getElementById("square2")
+const square3=document.getElementById("square3")
+
+
+square1.addEventListener("mouseover",()=>{
+    square2.style.backgroundColor="#6F4E37"
+    square3.style.backgroundColor="#6F4E37"
+
+})
+square2.addEventListener("mouseover",()=>{
+    square1.style.backgroundColor="#6F4E37"
+    square3.style.backgroundColor="#6F4E37"
+
+})
+square3.addEventListener("mouseover",()=>{
+    square1.style.backgroundColor="#6F4E37"
+    square2.style.backgroundColor="#6F4E37"
+
+})

@@ -1,1 +1,10 @@
 /*  your css code here. If applicable */
+body{
+	display:flex;
+	gap:20px;
+}
+.class{
+	width:40px;
+	height:40px;
+	background-color:#E6E6FA;
+}
